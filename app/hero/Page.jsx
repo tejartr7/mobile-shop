@@ -1,9 +1,10 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper/core';
+import SwiperCore from 'swiper/core';
 import data from './data';
-
+import { useEffect, useState } from 'react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 // Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
