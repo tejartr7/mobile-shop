@@ -9,7 +9,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 const Page = () => {
   const [swiper, setSwiper] = useState(null);
-
+  //console.log(data[0].id===1);
   useEffect(() => {
     if (swiper) {
       swiper.update();
@@ -44,10 +44,10 @@ const Page = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               color: 'white',
-              position: 'relative', // Ensure relative positioning for absolute elements
+              position: 'relative', 
             }}>
-              <div className="w-full lg:w-80 md:w-80 sm:w-90 mx-auto">
-                <h1 className="hero-header text-center font-bold font-poppins text-2xl lg:text-left text-white">{item.description}</h1>
+              <div className={`w-full lg:w-80 md:w-80 sm:w-90 mx-auto`}>
+                <h1 className={`hero-header text-center font-bold font-poppins text-2xl lg:text-left text-white`}>{item.description}</h1>
               </div>
             </div>
             <div className="swiper-button-next" onClick={handleNext} style={{ position: 'absolute', top: '50%', right: '10px', zIndex: 10, color: 'white', backgroundColor: 'black' }}></div>
@@ -58,4 +58,5 @@ const Page = () => {
     </div>
   );
 };
+
 export default Page;
