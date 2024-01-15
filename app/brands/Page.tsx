@@ -82,7 +82,7 @@ const Brand = () => {
             </div>
           </div>
         </div>
-        <p className="text-center font-bold">& many more</p>
+        <p className="text-center font-bold text-xl">& many more</p>
       </section>
       {/* ====== Brands Section End */}
     </>
