@@ -15,5 +15,5 @@ const data = [
         description: 'In a world where technology evolves at the speed of light, equip yourself with the latest smartphones - your gateway to a smarter tomorrow',
     },
 
-];
+]; 
 export default data;

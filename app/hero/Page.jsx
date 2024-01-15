@@ -44,10 +44,10 @@ const Page = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               color: 'white',
-              position: 'relative', 
+              position: 'relative',
             }}>
               <div className={`w-full lg:w-80 md:w-80 sm:w-90 mx-auto`}>
-                <h1 className={`hero-header text-center font-bold font-poppins text-2xl lg:text-left text-white`}>{item.description}</h1>
+                <h1 className={`hero-header mx-auto text-center font-bold font-poppins text-2xl lg:text-left text-white`}>{item.description}</h1>
               </div>
             </div>
             <div className="swiper-button-next" onClick={handleNext} style={{ position: 'absolute', top: '50%', right: '10px', zIndex: 10, color: 'white', backgroundColor: 'black' }}></div>
