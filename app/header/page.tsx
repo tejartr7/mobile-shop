@@ -15,9 +15,9 @@ const Page = () => {
             <li>
               <a href="/#hero" className="block text-white hover:text-blue-500 py-2 md:mx-2">Home</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/#about" className="block text-white hover:text-blue-500 py-2 md:mx-2">About</a>
-            </li>
+            </li>*/}
             <li>
               <a href="/#brands" className="block text-white hover:text-blue-500 py-2 md:mx-2">Brands</a>
             </li>

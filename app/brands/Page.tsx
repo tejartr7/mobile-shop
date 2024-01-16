@@ -5,7 +5,7 @@ const Brand = () => {
     <>
       {/* ====== Brands Section Start */}
 
-      <section className="bg-white font-poppins py-5 dark:bg-dark lg:py-[50px]">
+      <section id='brands' className="bg-white font-poppins py-5 dark:bg-dark lg:py-[50px]">
         <h1 className="text-4xl flex text-center font-bold justify-center items-center my-4 ">Brands in our Store</h1>
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-2">
@@ -82,7 +82,7 @@ const Brand = () => {
             </div>
           </div>
         </div>
-        <p className="text-center font-bold text-xl">& many more</p>
+        <p className="text-center font-bold text-xl">& many more mobiles & accessories.</p>
       </section>
       {/* ====== Brands Section End */}
     </>

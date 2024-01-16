@@ -3,6 +3,7 @@ import Header from '../app/header/page';
 import Subheader from '../app/subheader/Page';
 import Hero from '../app/hero/Page.jsx';
 import Brands from '../app/brands/Page';
+import Services from '../app/services/Page';
 export default function Home() {
   return (
     <div>
@@ -10,7 +11,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Brands/>
-      <h1>Home</h1>
+      <Services/>
     </div>
   )
 };
