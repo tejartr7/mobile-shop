@@ -18,13 +18,17 @@ const Page = () => {
 
   const handlePrev = () => {
     if (swiper) {
-      swiper.slidePrev();
+      const currentIndex = swiper.activeIndex;
+      const newIndex = currentIndex === 0 ? data.length - 1 : currentIndex - 1;
+      swiper.slideTo(newIndex);
     }
   };
 
   const handleNext = () => {
     if (swiper) {
-      swiper.slideNext();
+      const currentIndex = swiper.activeIndex;
+      const newIndex = currentIndex === data.length - 1 ? 0 : currentIndex + 1;
+      swiper.slideTo(newIndex);
     }
   };
 
