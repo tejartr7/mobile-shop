@@ -40,7 +40,7 @@ const ReviewSlider = () => {
       <Swiper
         onSwiper={(swiper) => setSwiper(swiper)} // Set the Swiper instance to state
         slidesPerView={1}
-        navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
+       // navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
         pagination={{ clickable: true }}
         spaceBetween={20}
         breakpoints={{
@@ -78,8 +78,8 @@ const ReviewSlider = () => {
             </div>
           </SwiperSlide>
         ))}
-        <div className="swiper-button-next" onClick={handleNext} style={{ position: 'absolute', zIndex: 10, color: 'black', backgroundColor: '#cccccc' }}></div>
-        <div className="swiper-button-prev" onClick={handlePrev} style={{ position: 'absolute', zIndex: 10, color: 'black', backgroundColor: '#cccccc' }}></div>
+        <div className="swiper-button-next" onClick={handleNext} style={{ position: 'absolute', zIndex: 10, color: 'black' }}></div>
+        <div className="swiper-button-prev" onClick={handlePrev} style={{ position: 'absolute', zIndex: 10, color: 'black' }}></div>
       </Swiper>
     </section>
   );
