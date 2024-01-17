@@ -3,7 +3,7 @@ const data = [{
     name: 'John Doe',
     gender: 'male',
     rating: 5,
-    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'
+    comment: 'It was a great Shop.'
 },
 
 {
@@ -11,14 +11,14 @@ const data = [{
     name: 'John Doe',
     gender: 'male',
     rating: 5,
-    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'
+    comment: 'It was a great Shop.'
 },
 {
     id: 3,
     name: 'John Doe',
     gender: 'male',
     rating: 5,
-    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.'
+    comment: 'It was a great Shop.'
 }
 ];
 export default data;

@@ -40,7 +40,7 @@ const ReviewSlider = () => {
       <Swiper
         onSwiper={(swiper) => setSwiper(swiper)} // Set the Swiper instance to state
         slidesPerView={1}
-       // navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
+        // navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
         pagination={{ clickable: true }}
         spaceBetween={20}
         breakpoints={{
@@ -57,7 +57,7 @@ const ReviewSlider = () => {
       >
         {data.map((review) => (
           <SwiperSlide key={review.id}>
-            <div className="review-card  text-white p-6 rounded-lg text-center flex flex-col items-center m-2" style={{ backgroundColor: '#0cafe5' }}>
+            <div className="review-card  text-white p-6 rounded-lg text-center flex flex-col items-center m-2" style={{ backgroundColor: '#0cafe5', height: '300px' }}>
               <Image
                 src={review.gender === 'male' ? male : female}
                 alt={review.name}
@@ -65,16 +65,18 @@ const ReviewSlider = () => {
                 height={50}
                 className="mb-4"
               />
-              <h3 className="text-xl font-semibold mb-2">{review.name}</h3>
-              <p className='flex items-center justify-center text-center'>Rating: {review.rating}</p>
+              <h3 className="text-xl font-semibold mb-1">{review.name}</h3>
+              <p className='my-3 flex items-center justify-center text-lg text-center' style={{ marginTop: '15px', marginBottom: '10px' }}> 
+                Rating: {review.rating}
+              </p>
               {/* Inside the ReviewSlider component */}
-              <div className="flex items-center justify-center text-center space-x-1">
+              <div className="flex items-center justify-center text-center space-x-1 my-2">
                 {[...Array(review.rating)].map((_, index) => (
-                  <FontAwesomeIcon key={index} icon={faStar} className="bg-yellow-500" style={{color:'yellow'}}/>
+                  <FontAwesomeIcon key={index} icon={faStar} className="bg-yellow-500" style={{ color: 'yellow' }} />
                 ))}
               </div>
 
-              <p className='text-xl'>{review.comment}</p>
+              <p className='text-xl my-2'>{review.comment}</p>
             </div>
           </SwiperSlide>
         ))}

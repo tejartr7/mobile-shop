@@ -4,7 +4,7 @@ import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Page = () => {
   return (
-    <div className='p-4' style={{ backgroundColor: '#0cafe5' }}>
+    <div className='p-8' style={{ backgroundColor: '#0cafe5' }}>
       <h1 className='text-center text-3xl font-bold'>Contact us</h1>
 
       {/* Container div with equal dimensions */}
