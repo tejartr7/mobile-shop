@@ -37,12 +37,13 @@ const Page = () => {
       <Swiper
         onSwiper={(swiper) => setSwiper(swiper)}
         spaceBetween={30}
-        navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
+        //navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000, disableOnInteraction: false }} // Ensure autoplay is not disabled on user interaction
+        autoplay={{ delay: 3000, disableOnInteraction: true}} 
+        loop={true}
       >
         {data.map((item) => (
-          <SwiperSlide key={item.id} className="text-center relative">
+          <SwiperSlide key={item.id} className="text-center relative" >
             <div className="slide-content h-screen flex items-center justify-center" style={{
               backgroundImage: `url(${item.image})`,
               backgroundSize: 'cover',
