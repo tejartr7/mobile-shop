@@ -9,7 +9,7 @@ import Contact from '../app/contact/Page';
 import Dummy from '../app/dummy/Page';
 export default function Home() {
   return (
-    <div>
+    <div className='font-poppins'>
       <Subheader/>
       <Header/>
       <Hero/>

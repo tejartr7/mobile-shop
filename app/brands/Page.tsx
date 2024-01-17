@@ -6,7 +6,7 @@ const Brand = () => {
       {/* ====== Brands Section Start */}
 
       <section id='brands' className="bg-white font-poppins py-5 dark:bg-dark lg:py-[50px]">
-        <h1 className="text-4xl flex text-center font-bold justify-center items-center my-4 ">Brands in our Store</h1>
+        <h1 className="text-3xl flex text-center font-bold justify-center items-center my-4 ">Brands in our Store</h1>
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-2">
             {/* Use -mx-2 to create some spacing between the images */}

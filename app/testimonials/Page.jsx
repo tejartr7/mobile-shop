@@ -36,7 +36,7 @@ const ReviewSlider = () => {
 
   return (
     <section id="reviews" className="swiper-container font-Poppins m-4 p-4" style={{ backgroundColor: '#eeeeee' }}>
-      <h1 className="text-2xl font-bold mb-4 text-center lg:pt-5 sm:pt-1" style={{ color: '#192a56' }}>Customer Reviews</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center lg:pt-5 sm:pt-1" style={{ color: '#192a56' }}>Customer Reviews</h1>
       <Swiper
         onSwiper={(swiper) => setSwiper(swiper)} // Set the Swiper instance to state
         slidesPerView={1}
