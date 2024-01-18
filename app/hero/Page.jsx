@@ -33,7 +33,7 @@ const Page = () => {
   };
 
   return (
-    <div className="swiper-container h-screen relative">
+    <div className="swiper-container h-screen relative font-Poppins">
       <Swiper
         onSwiper={(swiper) => setSwiper(swiper)}
         spaceBetween={30}

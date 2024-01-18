@@ -6,11 +6,11 @@ import Brands from './brands/Page';
 import Services from './services/Page';
 import Testimonials from './testimonials/Page.jsx';
 import Contact from './contact/Page';
-import Dummy from './dummy/Page';
 import Footer from './footer/Page'
+import './globals.css'
 export default function Home() {
   return (
-    <div className='font-poppins'>
+    <div className='font-Poppins'>
       <Subheader/>
       <Header/>
       <Hero/>

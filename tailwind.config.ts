@@ -14,7 +14,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        'Merriweather': ['Merriweather'],
+        'Poppins': ['Poppins'],
       },
     },
   },

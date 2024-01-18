@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Page = () => {
   return (
-    <nav className="bg-black font-poppins font-bold px-4 py-2 flex flex-col lg:flex-row lg:items-center flex-shrink-0">
+    <nav className="bg-black font-Poppins font-bold px-4 py-2 flex flex-col lg:flex-row lg:items-center flex-shrink-0">
       <div className="flex justify-between items-center lg:mr-10">
         <span className="text-white text-xl">BrandName</span>
         <button className="border border-white px-2 py-1 rounded text-white opacity-100 hover:opacity-75 lg:hidden bg-white" id="navbar-toggle" style={{ border: '4px solid #00B8FF', color: 'white' }}>

@@ -5,7 +5,7 @@ import { faDollarSign, faScrewdriverWrench, faCreditCard, faTag, faSmile } from 
 const Page = () => {
   return (
     <section id='services'>
-      <div className="p-4 font-poppins flex items-center text-center justify-center" style={{ backgroundColor: '#0cafe5' }}>
+      <div className="p-4 font-Poppins flex items-center text-center justify-center" style={{ backgroundColor: '#0cafe5' }}>
         <div className="flex flex-wrap items-center justify-center">
           <div className="lg:w-1/4 md:w-1/2 w-full mb-4 lg:mb-0 flex items-center text-center justify-center">
             <div className="flex items-center text-white text-2xl font-bold">
