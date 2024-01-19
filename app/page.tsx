@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Header from './header/page';
-import Subheader from './subheader/Page';
-import Hero from './hero/Page.jsx';
-import Brands from './brands/Page';
-import Services from './services/Page';
-import Testimonials from './testimonials/Page.jsx';
-import Contact from './contact/Page';
-import Footer from './footer/Page'
+import Subheader from './subheader/page';
+import Hero from './hero/page.jsx';
+import Brands from './brands/page';
+import Services from './services/page';
+import Testimonials from './testimonials/page.jsx';
+import Contact from './contact/page';
+import Footer from './footer/page'
 import './globals.css'
 export default function Home() {
   return (
